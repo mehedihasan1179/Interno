@@ -27,11 +27,16 @@
     <!-- header starts -->
 
     <header class="sticky z-30 top-0 bg-white h-[90px] shadow-xl ">
+
+        <!-- header container -->
+
         <div class="container mx-auto flex justify-between h-full items-center">
 
             <a href="#">
                 <img src="assets/logo.svg" alt="">
             </a>
+
+            <!-- navbar -->
 
             <nav>
 
@@ -58,13 +63,16 @@
 
     <main class="max-w-[1920px] mx-auto bg-white overflow-hidden">
 
+        <div class="xl:bg-grid xl:bg-center xl:bg-repeat-y fixed top-0 right-0 left-0 bottom-0 z-10"></div>
+
         <!-- hero starts -->
 
+        <!-- hero bg -->
+
         <section class="hero h-[640px] xl:h-[840px] bg-hero bg-center lg:bg-cover bg-no-repeat bg-fixed xl:rounded-bl-[290px] relative z-20">
-
+            <!-- hero container -->
             <div class="container mx-auto h-full flex items-center">
-
-
+                <!-- hero text -->
                 <div class="hero__text w-[567px] flex flex-col items-center text-center xl:text-left lg:items-start">
 
                     <h1 class="h1 mb-8">Let Your Home Be Unique</h1>
@@ -74,9 +82,7 @@
                     <button class="btn btn-primary mx-auto xl:mx-0">
                         Get free estimation <i class="ri-arrow-right-line text-accent"></i>
                     </button>
-
                 </div>
-
             </div>
         </section>
 
@@ -85,11 +91,11 @@
         <!-- steps starts -->
 
         <section class="steps mt-[90px] xl:mt-[200px] relative z-20">
-
+            <!-- grid container -->
             <div class="container mx-auto">
-
+                <!-- grid -->
                 <div class="grid grid-cols-1 gap-12 xl:grid-cols-3">
-
+                    <!-- step 1 -->
                     <div class="steps__step text-center">
                         <div class="mb-4">
                             <i class="ri-compasses-2-line text-5xl text-accent"></i>
@@ -100,7 +106,7 @@
                         </p>
                         <a href="#" class="font-medium flex justify-center gap-2">Read more <i class="ri-arrow-right-line text-accent"></i></a>
                     </div>
-
+                    <!-- step 2 -->
                     <div class="steps__step text-center">
                         <div class="mb-4">
                             <i class="ri-magic-line text-5xl text-accent"></i>
@@ -111,7 +117,7 @@
                         </p>
                         <a href="#" class="font-medium flex justify-center gap-2">Read more <i class="ri-arrow-right-line text-accent"></i></a>
                     </div>
-
+                    <!-- step 3 -->
                     <div class="steps__step text-center">
                         <div class="mb-4">
                             <i class="ri-tools-line text-5xl text-accent"></i>
@@ -122,21 +128,18 @@
                         </p>
                         <a href="#" class="font-medium flex justify-center gap-2">Read more <i class="ri-arrow-right-line text-accent"></i></a>
                     </div>
-
                 </div>
-
             </div>
-
         </section>
 
         <!-- steps ends -->
 
-        <!-- section starts -->
-
+        <!-- about starts -->
         <section class="about mt-[80px] xl:mt-[200px] relative z-20">
+            <!-- about container -->
             <div class="container mx-auto xl:px-0">
                 <div class="flex flex-col xl:flex-row text-center xl:text-left justify-between items-center gap-8 xl:gap-[74px]">
-
+                    <!-- about__text -->
                     <div class="about__text flex-1 order-2 xl:order-none max-w-xl xl:max-w-[410px]">
                         <h2 class="h2">We Create The Art Of Stylish Living Stylishly</h2>
 
@@ -160,7 +163,7 @@
                         <button class="btn btn-primary">Get free estimation <i class="ri-arrow-right-line text-accent"></i></button>
 
                     </div>
-
+                    <!-- img part -->
                     <div class="about__img order-1 xl:order-none max-w-[453px] mx-auto xl:max-w-none xl:mx-0">
                         <img src="assets/about/img.png" alt="photo">
                     </div>
@@ -169,18 +172,27 @@
             </div>
         </section>
 
-        <!-- section ends -->
+        <!-- about ends -->
+
+        <!-- testimonial -->
 
         <section class="testimonial mt-[80px] xl:mt-[200px] relative z-20">
             <div class="testimonial__bg container mx-auto bg-accent-secondary rounded-[70px] px-6">
 
+                <!-- testimonial__text -->
+
                 <div class="testimonial__title flex flex-col items-center py-[90px]">
                     <h2 class="h2 mb-9 text-center">What Clients say</h2>
 
+                    <!-- testimonial__slider -->
+
                 <div class="w-full">
                     <div class="testimonial__slider swiper h-[400px]">
-                        <div class="swiper-wrapper">
 
+                        <!-- swiper wrapper -->
+
+                        <div class="swiper-wrapper">
+                            <!-- slide 1 -->
                             <div class="swiper-slide">
                                 
                                 <div class="testimonial__item w-full max-w-[450px] h-[340px] bg-white rounded-[30px] flex flex-col justify-center p-9 mx-auto">
@@ -197,7 +209,7 @@
                                     </p>
                                 </div>
                             </div>
-
+                            <!-- slide 2 -->
                             <div class="swiper-slide">
                                 
                                 <div class="testimonial__item w-full max-w-[450px] h-[340px] bg-white rounded-[30px] flex flex-col justify-center p-9 mx-auto">
@@ -214,7 +226,7 @@
                                     </p>
                                 </div>
                             </div>
-                            
+                            <!-- slide 3 -->                            
                             <div class="swiper-slide">
                                 
                                 <div class="testimonial__item w-full max-w-[450px] h-[340px] bg-white rounded-[30px] flex flex-col justify-center p-9 mx-auto">
@@ -231,7 +243,7 @@
                                     </p>
                                 </div>
                             </div>
-
+                            <!-- slide 4 -->
                             <div class="swiper-slide">
                                 
                                 <div class="testimonial__item w-full max-w-[450px] h-[340px] bg-white rounded-[30px] flex flex-col justify-center p-9 mx-auto">
@@ -261,9 +273,16 @@
             </div>
         </section>
 
+        <!-- brands -->
+
         <section class="brands mt-[80px] xl:mt-[150px] relative z-20">
+
+            <!-- brands container -->
+
             <div class="container mx-auto">
                 <div class="flex flex-col xl:flex-row justify-between items-center gap-12">
+
+                    <!-- logo section -->                    
                     <img class="brands__img" src="assets/brands/01.svg" alt="">
                     <img class="brands__img" src="assets/brands/02.svg" alt="">
                     <img class="brands__img" src="assets/brands/03.svg" alt="">
@@ -273,18 +292,21 @@
             </div>
         </section>
 
+        <!-- work -->
         <section class="work mt-[80px] xl:mt-[150px] relative z-20">
+            <!-- work container -->
             <div class="container mx-auto xl:px-0">
-
+                <!-- work__text -->
                 <div class="text-center mb-24">
                     <h2 class="work__title h2 mb-4">Follow Our Projects</h2>
                     <p class="work__subtitle max-w-3xl mx-auto">
                         It is a long established fact that a reader will be distracted by the of readable content of page lookings at its layouts points.
                     </p>
                 </div>
-
+                <!-- grid -->
                 <div class="work__grid grid grid-cols-1 xl:grid-cols-2 gap-x-[104px] gap-y-[56px]">
 
+                    <!-- card1 -->
                     <div class="w-full max-w-[548px] h-full mx-auto">
                         <img class="mb-6" src="assets/work/01.png" alt="">
                         <div class="flex justify-between items-center w-full">
@@ -297,7 +319,7 @@
                             </button>
                         </div>
                     </div>
-
+                    <!-- card 2 -->
                     <div class="w-full max-w-[548px] h-full mx-auto">
                         <img class="mb-6" src="assets/work/02.png" alt="">
                         <div class="flex justify-between items-center w-full">
@@ -310,7 +332,7 @@
                             </button>
                         </div>
                     </div>
-
+                    <!-- card 3 -->
                     <div class="w-full max-w-[548px] h-full mx-auto">
                         <img class="mb-6" src="assets/work/03.png" alt="">
                         <div class="flex justify-between items-center w-full">
@@ -323,7 +345,7 @@
                             </button>
                         </div>
                     </div>
-
+                    <!-- card 4 -->
                     <div class="w-full max-w-[548px] h-full mx-auto">
                         <img class="mb-6" src="assets/work/04.png" alt="">
                         <div class="flex justify-between items-center w-full">
@@ -342,7 +364,11 @@
             </div>
         </section>
 
+        <!-- stats -->
+
         <section class="stats mt-[80px] xl:mt-[150px] relative z-20 bg-accent-secondary py-[80px] xl:py-[150px]">
+
+            <!-- stats container -->
             <div class="container mx-auto">
                 
                 <div class="grid grid-cols-1 xl:grid-cols-4 lg:grid-cols-2 gap-12">
@@ -372,18 +398,21 @@
             </div>
         </section>
 
-        <section class="news mt-[80px] xl:mt-[150px] relative z-20">
-            <div class="container mx-auto px-0">
+        <!-- news -->
 
+        <section class="news mt-[80px] xl:mt-[150px] relative z-20">
+            <!-- news container -->
+            <div class="container mx-auto px-0">
+                <!-- news__text -->
                 <div class="max-w-[810px] mx-auto mb-[52px] text-center">
                     <h3 class="news__title h2 m-2 ">Articles & News</h3>
                     <p class="nwes__subtitle">
                         It is a long established fact that a reader will be distracted by the of readable content of a page when lookings at its layouts the points of using.
                     </p>
                 </div>
-                
+                <!-- grid -->               
                 <div class="news__grid grid grid-cols-1 xl:grid-cols-3 lg:grid-cols-2 lg:align-middle gap-[27px]">
-
+                    <!-- card 1 -->
                     <div class="grid__items w-full max-w-[382px] h-[520px] border border-primary/20 rounded-[62px] p-[20px] hover:bg-accent-secondary transition-all group  cursor-pointer mx-auto xl:mx-0">
                         <img class="mb-5" src="assets/news/01.png" alt="">
                         <div class="flex flex-col gap-[30px]">
@@ -396,7 +425,7 @@
                             </div>
                         </div>
                     </div>
-
+                    <!-- card 2 -->
                     <div class="grid__items w-full max-w-[382px] h-[520px] border border-primary/20 rounded-[62px] p-[20px] hover:bg-accent-secondary transition-all group  cursor-pointer mx-auto xl:mx-0">
                         <img class="mb-5" src="assets/news/02.png" alt="">
                         <div class="flex flex-col gap-[30px]">
@@ -410,7 +439,7 @@
                             </div>
                         </div>
                     </div>
-
+                    <!-- card 3 -->
                     <div class="grid__items w-full max-w-[382px] h-[520px] border border-primary/20 rounded-[62px] p-[20px] hover:bg-accent-secondary transition-all group  cursor-pointer mx-auto xl:mx-0">
                         <img class="mb-5" src="assets/news/01.png" alt="">
                         <div class="flex flex-col gap-[30px]">
@@ -426,12 +455,16 @@
                     </div>
 
                 </div>
-
             </div>
         </section>
 
+        <!-- contact -->
+
         <section class="contact mt-[80px] xl:mt-[150px] relative z-20">
+
+            <!-- contact__containr -->
             <div class="contact__container container mx-auto bg-primary sm:rounded-[70px] py-[80px]">
+                <!-- contact___text -->
                 <div class="contact__text max-w-[640px] mx-auto text-center">
                     <h2 class="h2 text-white mb-4">Do you want to join Interno?</h2>
                     <p class="text-white mb-8 max-w-sm xl:max-w-none mx-auto">It is a long established fact will be distracted.
@@ -443,9 +476,13 @@
             </div>
         </section>
 
+        <!-- footer -->
+
         <footer class="footer mt-[80px] xl:mt-[150px] relative z-20">
+            <!-- footer container -->
             <div class="container mx-auto px-0 mb-80">
                 <div class="flex flex-col xl:flex-row xl:gap-[100px]">
+                    <!-- part 1 -->
                     <div class="footer__item w-full max-w-[400px] mx-auto mb-8 text-center xl:text-left">
                         <a class="flex justify-center xl:justify-start mb-8" href="">
                             <img src="assets/logo.svg" alt="">
@@ -469,8 +506,7 @@
                             </li>
                         </ul>
                     </div>
-
-
+                    <!-- part 1 -->
                     <div class="flex-1 flex flex-col xl:flex-row text-center xl:text-left gap-12 xl:gap-[100px] xl:justify-end">
                         
                         <div class="footer__item">
@@ -507,14 +543,14 @@
                 </div>
             </div>
 
+            <!-- copyright__section -->
             <p class="footer__copyright text-lg px-60 py-20 bg-white xl:border-t xl:border-gray-300 text-center">Copyright © Interno 2024. All rights reserved.</p>
         </footer>
+
+
+
+        <div class="h-[3000px]"></div>
     </main>
-
-    
-
-
-    
 
     <script src="js/scrollreveal.min.js"></script>
     <script src="js/swiper-bundle.min.js"></script>
